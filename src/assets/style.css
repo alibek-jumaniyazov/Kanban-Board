@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1{
+    width: 100%;
+    text-align: center;
+}
+
+.App{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.UserInfo{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 400px;
+    height: 300px;
+    box-shadow: 4px 5px 8px 0px rgba(34, 60, 80, 0.2);
+    
+}
+.User{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 400px;
+    height: 20px;
+    gap: 10px;
+    padding: 30px 20px;
+    border-radius: 6px;
+    box-shadow: 4px 5px 8px 0px rgba(34, 60, 80, 0.2);
+    touch-action: none;
+}
+.User:active{
+    cursor: grab;
+}
+.addUser{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.Kanban{
+    display: flex;
+    flex-direction: column;
+}
